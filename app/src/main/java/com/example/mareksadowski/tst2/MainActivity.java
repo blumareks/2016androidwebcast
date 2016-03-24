@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                     public void run() {
                         try {
                             AlchemyLanguage service = new AlchemyLanguage();
-                            service.setApiKey("844de29ef7761fd309c079582e53bc304c10829f");
+                            service.setApiKey("<api_key>");
 
                             Map<String, Object> params = new HashMap<String, Object>();
                             params.put(AlchemyLanguage.TEXT,
